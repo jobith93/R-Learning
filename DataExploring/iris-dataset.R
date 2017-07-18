@@ -20,5 +20,10 @@ pie(table(r))
 barplot(table(r))
 
 cov(iris$Sepal.Length, iris$Petal.Length)
+aggregate(Sepal.Length~Species, summary, data=iris)
+
+boxplot(Sepal.Length~Species, data=iris)
+
+
 
 
