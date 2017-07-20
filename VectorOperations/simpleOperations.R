@@ -19,3 +19,9 @@ a==c(1,2,3,4,5)
 a==c(2,4,3,1,6)
 a>=c(1,2,3,4,5)
 
+
+#matrix creation
+a<-c(1:12)
+mat_a <- matrix(a, 3, 4) # matrix(data, rows, cols)
+mat_a
+
