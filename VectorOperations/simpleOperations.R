@@ -25,5 +25,9 @@ a<-c(1:12)
 mat_a <- matrix(a, 3, 4)    #matrix(data, rows, cols)
 mat_a
 
+#transpose by changing dimension
+dim(mat_a)<-c(4,3)
+mat_a
+
 unit_mat_4 <- matrix(1, 4, 4) #unit matrix of 4X4
 unit_mat_4
